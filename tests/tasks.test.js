@@ -26,7 +26,7 @@ describe("addTask", () => {
 describe("toggleTask", () => {
   test("alterna o estado de conclusão", () => {
     const t = addTask([], "a");
-    expect(toggleTask(t, 1)[0].done).toBe(false);
+    expect(toggleTask(t, 1)[0].done).toBe(true);
     expect(toggleTask(toggleTask(t, 1), 1)[0].done).toBe(false);
   });
 });
