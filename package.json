@@ -1,0 +1,11 @@
+{
+  "name": "lista-tarefas",
+  "version": "1.0.0",
+  "description": "Lista de tarefas simples usada para praticar CI/CD com GitHub Actions",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
